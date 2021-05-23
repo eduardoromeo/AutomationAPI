@@ -10,8 +10,7 @@ Feature: Projects
        "Content": "Sub Project 4"
   }
   """
-    #Then I expected the response code 200
-   # And I expected the response body is equal
+
     """
      {
                 "Id": 1,
