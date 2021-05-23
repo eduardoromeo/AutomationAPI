@@ -1,5 +1,6 @@
 package clientApi;
 
+
 public class ResponseInformation {
 
     private String responseBody;
@@ -36,6 +37,4 @@ public class ResponseInformation {
     public void setResponseCode(int responseCode) {
         this.responseCode = responseCode;
     }
-
-
 }
