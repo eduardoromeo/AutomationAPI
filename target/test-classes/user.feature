@@ -6,9 +6,9 @@ Feature: Users
     When I send POST request 'api/user.json' with json and BASIC authentication
   """
    {
-       "Email":"edu789@gmail.com",
-       "FullName": "popito",
-       "Password": 789
+       "Email":"edu789101@gmail.com",
+       "FullName": "popito11",
+       "Password": 78910
   }
   """
     Then I expected the response code 200
@@ -16,9 +16,9 @@ Feature: Users
     """
      {
     "Id": EXCLUDE,
-    "Email": "edu789@gmail.com",
+    "Email": "edu789101@gmail.com",
     "Password": null,
-    "FullName": "popito",
+    "FullName": "popito11",
     "TimeZone": 0,
     "IsProUser": false,
     "DefaultProjectId": EXCLUDE,
